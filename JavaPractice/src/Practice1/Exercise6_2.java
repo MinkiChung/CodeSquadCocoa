@@ -1,3 +1,5 @@
+package Practice1;
+
 public class Exercise6_2 {
     public static void main(String[] args) {
         SutdaCard card1 = new SutdaCard(3, false);
