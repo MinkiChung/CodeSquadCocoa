@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CodeSquadCocoa.iml" filepath="$PROJECT_DIR$/CodeSquadCocoa.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day13/day13.iml" filepath="$PROJECT_DIR$/day13/day13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPractice/JavaPractice.iml" filepath="$PROJECT_DIR$/JavaPractice/JavaPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RubicsCube/RubicsCube.iml" filepath="$PROJECT_DIR$/RubicsCube/RubicsCube.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RubiksCube2/RubiksCube2.iml" filepath="$PROJECT_DIR$/RubiksCube2/RubiksCube2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new/new.iml" filepath="$PROJECT_DIR$/new/new.iml" />
     </modules>
   </component>
 </project>
