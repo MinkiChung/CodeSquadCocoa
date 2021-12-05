@@ -31,25 +31,16 @@ public class CubeFlat {
 
     //for문을 통해 Deque의 요소 출력
     void printCube() {
-        for (int i = 0; i < 3; i++) {
-            System.out.print(Row1.removeFirst());
-            if (i < 2) {
-                System.out.print(" ");
-            }
+        for (String s : Row1) {
+            System.out.print(s + " ");
         }
         System.out.println();
-        for (int i = 0; i < 3; i++) {
-            System.out.print(Row2.removeFirst());
-            if (i < 2) {
-                System.out.print(" ");
-            }
+        for (String s : Row2) {
+            System.out.print(s + " ");
         }
         System.out.println();
-        for (int i = 0; i < 3; i++) {
-            System.out.print(Row3.removeFirst());
-            if (i < 2) {
-                System.out.print(" ");
-            }
+        for (String s : Row3) {
+            System.out.print(s + " ");
         }
     }
 
@@ -124,8 +115,6 @@ public class CubeFlat {
                 pushRightRow3();
             } else if (cmd.equals("B'")) {
                 pushLeftRow3();
-            } else if (cmd.equals("Q")) {
-                // fill in
             }
 
             printCube();

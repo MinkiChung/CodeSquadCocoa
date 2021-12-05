@@ -12,12 +12,18 @@ public class Prompt {
         System.out.print("CUBE> ");
         Scanner sc = new Scanner(System.in);
         String input = sc.next();
-        runPrompt(cubeFlat, input);
+        if (input.equals("Q")) {
+            System.out.println("Bye~");
+            System.exit(0);
+        } else if (!input.equals("Q")) {
+            runPrompt(cubeFlat, input);
+        }
     }
 
     //입력값에 해당하는 명령어 실행.
     void runPrompt(CubeFlat cubeFlat, String input) {
-        cubeFlat.MoveAndPrintCube(cmdConversion(input));
+        ArrayList<String> cmds = cmdConversion(input);
+        cubeFlat.MoveAndPrintCube(cmds);
     }
 
     //Prompt 입력값에서 실질적으로 이행해야 하는 명령 모은 ArrayList 반환
